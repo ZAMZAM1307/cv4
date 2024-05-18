@@ -1,6 +1,6 @@
 .container{
   display: flex;
-  box-sizing: 1160px;
+  box-sizing:border-box;
 }
 .Partie1{
   display: flex;
@@ -40,7 +40,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 background-color: rgb(0, 255, 195);
-
+align-content: end;
 width: 500px;
 }
 .Partie5 img{
@@ -49,5 +49,4 @@ width: 500px;
   height: 80px;
   flex-direction: row;
   justify-content: space-around;
-  align-items: end;
 }
