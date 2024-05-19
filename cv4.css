@@ -2,9 +2,10 @@
   display: flex;
   box-sizing:border-box;
 }
-.h2{
+h2{
   display: flex;
   background-color: coral;
+  margin-right: 25px;
 }
 .Partie1{
   display: flex;
@@ -41,15 +42,18 @@
 .Partie4{
   display: flex;
   flex-direction: column;
+  background-color: aqua;
+  margin-right: 120px;
 }
 .Partie5{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-background-color:brown;
-align-content: end;
-width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:brown;
+  align-content: end;
+  width: 500px;
+  margin-right: 120px;
 }
 .Partie5 img{
   display: flex;
