@@ -1,6 +1,7 @@
 .container{
   display: flex;
   box-sizing:border-box;
+  flex-wrap: wrap;
 }
 h2{
   display: flex;
